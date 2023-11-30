@@ -9,7 +9,7 @@ public class GameDataProvider: IGameDataProvider
     // Propriété retournant le chemin
     private string myGamesFilePath
     {
-        get { return "\\Users\\jules\\OneDrive\\documents\\C#\\dotnet cours\\tp.net-rotilio\\4OLEN-TP-2023\\MyVideoGames.Console.DataProvider\\Interfaces\\"; }
+        get { return "\\Users\\jules\\OneDrive\\documents\\C#\\dotnet cours\\tp.net-rotilio\\4OLEN-TP-2023\\MyVideoGames.Console.DataProvider\\JsonFiles\\"; }
     }
 
     // Propriété qui concatène le chemin et le nom du fichier
