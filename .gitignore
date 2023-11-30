@@ -1,0 +1,13 @@
+﻿################################################################################
+# Ce fichier .gitignore a été automatiquement créé par Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/4OLEN-TP-2023/.vs/4OLEN-TP-2023
+/4OLEN-TP-2023/MyVideoGames.Console/bin/Debug/net7.0
+/4OLEN-TP-2023/MyVideoGames.Console/obj
+/4OLEN-TP-2023/MyVideoGames.Console.DataProvider/bin/Debug/net7.0
+/4OLEN-TP-2023/MyVideoGames.Console.DataProvider/obj
+/4OLEN-TP-2023/MyVideoGames.Model/bin/Debug/net7.0
+/4OLEN-TP-2023/MyVideoGames.Model/obj
+/4OLEN-TP-2023/.vs/ProjectEvaluation
