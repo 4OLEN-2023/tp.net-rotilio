@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyVideoGames.Console.DataPr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyVideoGames.Model", "MyVideoGames.Model\MyVideoGames.Model.csproj", "{8F59887B-CA8F-4AA5-8782-0FE932BF258E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyVideoGames.WebUI", "MyVideoGames.WebUI\MyVideoGames.WebUI.csproj", "{27379DF3-871E-490C-A340-74F862D27F38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8F59887B-CA8F-4AA5-8782-0FE932BF258E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F59887B-CA8F-4AA5-8782-0FE932BF258E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F59887B-CA8F-4AA5-8782-0FE932BF258E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27379DF3-871E-490C-A340-74F862D27F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27379DF3-871E-490C-A340-74F862D27F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27379DF3-871E-490C-A340-74F862D27F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27379DF3-871E-490C-A340-74F862D27F38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
