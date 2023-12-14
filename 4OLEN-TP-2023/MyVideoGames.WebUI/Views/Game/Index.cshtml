@@ -1,0 +1,35 @@
+﻿@model GameListViewModel
+
+@{
+    ViewData["Title"] = Model.PageTitle;
+}
+
+<div class="text-center">
+    <h1 class="display-4">@Model.WelcomeMessage</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Release Date</th>
+                <th scope="col">Platform</th>
+                <th scope="col">Rating</th>
+                <th scope="col">Playtime</th>
+                <th scope="col">Description</th>
+                <th scope="col">Edit</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var Game in Model.myGames)
+            {
+                <partial name="Partials/_Gamelist" model="@Game" />
+            }
+        </tbody>
+    </table>
+
+
+</div>

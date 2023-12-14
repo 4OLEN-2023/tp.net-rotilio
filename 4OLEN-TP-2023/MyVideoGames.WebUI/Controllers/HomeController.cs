@@ -15,7 +15,14 @@ namespace MyVideoGames.WebUI.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            HomeViewModel model = new()
+            {
+                PageTitle = "Ma collection de jeux vidéos",
+                WelcomeMessage = "Bienvenue"
+
+            };
+
+            return View(model);
         }
 
         public IActionResult Privacy()

@@ -4,7 +4,11 @@ namespace MyVideoGames.Console.DataProvider.Interfaces;
 
 public interface IGameDataProvider
 {
-    public GameModel? GetMyGame();
+    public Game GetMyGame();
 
-    public List<GameModel>? GetMyGames();
+    public IEnumerable<Game> GetMyGames();
+
+    public void Add(Game gameToAdd);
+    public Game? GetGameById(int gameId);
+    public void Update(Game Game);
 }

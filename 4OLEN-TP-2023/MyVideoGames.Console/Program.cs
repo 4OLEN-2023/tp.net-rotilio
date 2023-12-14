@@ -6,18 +6,18 @@ using MyVideoGames.Model;
 GameDataProvider gameDataProvider = new();
 
 // Appel de la méthode qui retourne les données via un objet
-List<GameModel> myGameModel = gameDataProvider.GetMyGames();
+List<Game> myGameModel = gameDataProvider.GetMyGames();
 
 // Affichage des données
-PrintMyGame(myGameModel);
+PrintMyGames(myGameModel);
 
 // Mise en pause de la console
 Console.ReadLine();
 
 // Méthode permettant l'affichage de notre jeu issue du json
-static void PrintMyGame(List<GameModel> gameList)
+static void PrintMyGames(List<Game> gameList)
 {
-    foreach (GameModel game in gameList)
+    foreach (Game game in gameList)
     {
 
         var newLine = $"{Environment.NewLine}{Environment.NewLine}";

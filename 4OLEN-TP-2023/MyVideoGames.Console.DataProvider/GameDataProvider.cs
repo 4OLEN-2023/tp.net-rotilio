@@ -1,11 +1,19 @@
 ﻿using System.Text.Json;
 using MyVideoGames.Console.DataProvider.Interfaces;
 using MyVideoGames.Model;
+using MyVideoGames.DataContext;
+using Microsoft.EntityFrameworkCore;
 
 namespace MyVideoGames.Console.DataProvider;
 
-public class GameDataProvider: IGameDataProvider
+public class GameDataProvider : IGameDataProvider
 {
+    private readonly MainDbContext _context;
+
+    public GameDataProvider(MainDbContext context)
+    {
+        _context = context;
+    }
     // Propriété retournant le chemin
     private string myGamesFilePath
     {
@@ -24,24 +32,38 @@ public class GameDataProvider: IGameDataProvider
     }
 
     // Méthode de lecture et de déserialisation du fichier JSON
-    public GameModel? GetMyGame()
+    public Game? GetMyGame()
     {
         // Ouverture du fichier et lecture de son contenu texte
         string jsonString = File.ReadAllText(myGameFile);
 
         // Transformation de l'objet en Objet (deserialisation)
-        GameModel? game = JsonSerializer.Deserialize<GameModel>(jsonString);
+        Game? game = JsonSerializer.Deserialize<Game>(jsonString);
 
         // Renvoi
         return game;
     }
 
-    public List<GameModel>? GetMyGames()
+    public IEnumerable<Game> GetMyGames()
     {
-        string jsonString = File.ReadAllText(myGamesFile);
+        //string jsonString = File.ReadAllText(myGamesFile);
+        //IList<Game> games = JsonConvert.DeserializeObject<List<Game>>(jsonString);
 
-        List<GameModel>? games = JsonSerializer.Deserialize<List<GameModel>>(jsonString);
-
+        IEnumerable<Game>? games = _context.Games.Include(game => game.Platform).ToList();
         return games;
+    }
+    public void Add(Game gameToAdd)
+    {
+        _context.Add(gameToAdd);
+        _context.SaveChanges();
+    }
+    public Game? GetGameById(int gameId)
+    {
+        return _context.Games.SingleOrDefault(game => game.Id == gameId);
+    }
+    public void Update(Game gameToUpdate)
+    {
+        _context.Update(gameToUpdate);
+        _context.SaveChanges();
     }
 }

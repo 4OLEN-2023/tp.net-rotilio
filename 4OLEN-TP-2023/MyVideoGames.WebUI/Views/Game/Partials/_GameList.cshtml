@@ -1,0 +1,37 @@
+﻿@using MyVideoGames.Model
+@model Game
+
+
+<tr>
+    <td>
+        @Model.Id - @Model.Slug
+    </td>
+
+    <td>
+        @Model.Name
+    </td>
+
+    <td>
+        @Model.ReleaseDate.ToShortDateString()
+    </td>
+
+    <td>
+        @Model.Platform.Name
+    </td>
+    <td>
+        Rating : @Model.Rating/@Model.RatingTop
+    </td>
+    <td>
+        @{
+            @Model.PlayTime
+        }h
+    </td>
+    <td>
+        <game-desc readonly="true">@Model.Description</game-desc>
+    </td>
+    <td>
+        <a asp-controller="Game" asp-action="AddOrEdit" asp-route-id="@Model.Id">Modifier</a>
+    </td>
+</tr>
+
+
