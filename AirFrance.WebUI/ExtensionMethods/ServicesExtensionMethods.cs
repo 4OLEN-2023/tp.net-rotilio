@@ -11,13 +11,14 @@ public static class ServicesExtensionMethods
     public static IServiceCollection AddDependencyInjection(this IServiceCollection services, IConfiguration configuration)
     {
         
-        string connectionString = configuration.GetConnectionString("GameDatabase");
+        string connectionString = configuration.GetConnectionString("VolDatabase");
         services.AddDbContext<MainDbContext>(options =>
         {
             options.UseSqlServer(connectionString, options => { });
         });
 
         services.AddScoped<IVolDataProvider, VolDataProvider>();
+        services.AddScoped<IPassagerDataProvider, PassagerDataProvider>();
 
         services.AddControllersWithViews();
         services.AddRazorPages();

@@ -9,12 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Views\Passagers\AddOrEdit._cshtml" />
+    <None Remove="Views\Passager\AddOrEdit._cshtml" />
     <None Remove="Views\Vol\AddOrEdit._cshtml" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Views\Passagers\AddOrEdit._cshtml" />
+    <Content Include="Views\Passager\AddOrEdit._cshtml" />
     <Content Include="Views\Vol\AddOrEdit._cshtml" />
   </ItemGroup>
 

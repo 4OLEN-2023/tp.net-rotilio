@@ -20,6 +20,7 @@ namespace AirFrance.Controllers
             this.PassagerDataProvider = PassagerDataProvider;
         }
 
+        [HttpGet]
         public IActionResult Index()
         {
             var Passagers = PassagerDataProvider.GetMyPassagers().ToList();
