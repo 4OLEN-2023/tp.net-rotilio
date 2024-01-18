@@ -1,0 +1,15 @@
+C:\Users\jules\OneDrive\documents\C#\dotnet cours\tp\tp.net-rotilio\AirFrance.Model\bin\Debug\net8.0\AirFrance.Model.deps.json
+C:\Users\jules\OneDrive\documents\C#\dotnet cours\tp\tp.net-rotilio\AirFrance.Model\bin\Debug\net8.0\AirFrance.Model.runtimeconfig.json
+C:\Users\jules\OneDrive\documents\C#\dotnet cours\tp\tp.net-rotilio\AirFrance.Model\bin\Debug\net8.0\AirFrance.Model.dll
+C:\Users\jules\OneDrive\documents\C#\dotnet cours\tp\tp.net-rotilio\AirFrance.Model\bin\Debug\net8.0\AirFrance.Model.pdb
+C:\Users\jules\OneDrive\documents\C#\dotnet cours\tp\tp.net-rotilio\AirFrance.Model\obj\Debug\net8.0\AirFrance.Model.csproj.AssemblyReference.cache
+C:\Users\jules\OneDrive\documents\C#\dotnet cours\tp\tp.net-rotilio\AirFrance.Model\obj\Debug\net8.0\AirFrance.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jules\OneDrive\documents\C#\dotnet cours\tp\tp.net-rotilio\AirFrance.Model\obj\Debug\net8.0\AirFrance.Model.AssemblyInfoInputs.cache
+C:\Users\jules\OneDrive\documents\C#\dotnet cours\tp\tp.net-rotilio\AirFrance.Model\obj\Debug\net8.0\AirFrance.Model.AssemblyInfo.cs
+C:\Users\jules\OneDrive\documents\C#\dotnet cours\tp\tp.net-rotilio\AirFrance.Model\obj\Debug\net8.0\AirFrance.Model.csproj.CoreCompileInputs.cache
+C:\Users\jules\OneDrive\documents\C#\dotnet cours\tp\tp.net-rotilio\AirFrance.Model\obj\Debug\net8.0\AirFrance.Model.sourcelink.json
+C:\Users\jules\OneDrive\documents\C#\dotnet cours\tp\tp.net-rotilio\AirFrance.Model\obj\Debug\net8.0\AirFrance.Model.dll
+C:\Users\jules\OneDrive\documents\C#\dotnet cours\tp\tp.net-rotilio\AirFrance.Model\obj\Debug\net8.0\refint\AirFrance.Model.dll
+C:\Users\jules\OneDrive\documents\C#\dotnet cours\tp\tp.net-rotilio\AirFrance.Model\obj\Debug\net8.0\AirFrance.Model.pdb
+C:\Users\jules\OneDrive\documents\C#\dotnet cours\tp\tp.net-rotilio\AirFrance.Model\obj\Debug\net8.0\AirFrance.Model.genruntimeconfig.cache
+C:\Users\jules\OneDrive\documents\C#\dotnet cours\tp\tp.net-rotilio\AirFrance.Model\obj\Debug\net8.0\ref\AirFrance.Model.dll

@@ -1,0 +1,13 @@
+@using AirFrance.Model
+@model Vol
+
+<div class="row">
+    <div class="col">@Model.Id</div>
+    <div class="col">@Model.Destination</div>
+    <div class="col">@Model.TakeOffDate</div>
+    <div class="col">@Model.IsDelayed</div>
+    <div class="col">@Model.OnBoardingMessage</div>
+    <div class="col">@Model.Passagers.Count / @Model.SeatCount passagers</div>
+    <div class="col">@Model.NetSales</div>
+    <div class="col"><a asp-controller="Game" asp-action="AddOrEdit" asp-route-id="@Model.Id">Modifier</a></div>
+</div>

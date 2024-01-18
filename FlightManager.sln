@@ -1,6 +1,39 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirFrance.WebUI", "AirFrance.WebUI\AirFrance.WebUI.csproj", "{19A501D3-2DAE-42A8-9D1C-01BD161FC08D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirFrance.DataContext", "AirFrance.DataContext\AirFrance.DataContext.csproj", "{6173782A-2E5D-44EF-BF48-55D40161C22E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirFrance.Model", "AirFrance.Model\AirFrance.Model.csproj", "{8DBED1B1-B66E-4D61-955C-062A344E85DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirFrance.DataProvider", "AirFrance.DataProvider\AirFrance.DataProvider.csproj", "{0ED18533-644F-4253-9B5F-C1CB74F92900}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19A501D3-2DAE-42A8-9D1C-01BD161FC08D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19A501D3-2DAE-42A8-9D1C-01BD161FC08D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19A501D3-2DAE-42A8-9D1C-01BD161FC08D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19A501D3-2DAE-42A8-9D1C-01BD161FC08D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6173782A-2E5D-44EF-BF48-55D40161C22E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6173782A-2E5D-44EF-BF48-55D40161C22E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6173782A-2E5D-44EF-BF48-55D40161C22E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6173782A-2E5D-44EF-BF48-55D40161C22E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DBED1B1-B66E-4D61-955C-062A344E85DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DBED1B1-B66E-4D61-955C-062A344E85DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DBED1B1-B66E-4D61-955C-062A344E85DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DBED1B1-B66E-4D61-955C-062A344E85DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ED18533-644F-4253-9B5F-C1CB74F92900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ED18533-644F-4253-9B5F-C1CB74F92900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ED18533-644F-4253-9B5F-C1CB74F92900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ED18533-644F-4253-9B5F-C1CB74F92900}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

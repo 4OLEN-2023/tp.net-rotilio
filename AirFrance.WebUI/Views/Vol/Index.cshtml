@@ -1,0 +1,11 @@
+@using AirFrance.WebUI.Models
+@model VolListViewModel
+
+@{
+    ViewData["Title"] = Model.PageTitle;
+}
+@*Affichage via une vue partielle*@
+@foreach (var vol in Model.Vols)
+{
+    <partial name="Partials/_VolsList" model="@vol"/>
+}
