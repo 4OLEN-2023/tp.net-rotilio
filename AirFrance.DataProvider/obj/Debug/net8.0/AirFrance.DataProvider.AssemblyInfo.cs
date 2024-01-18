@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AirFrance.DataProvider")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b5958c7a0793f2d96955b7dc4310c8a68ee0696")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4436bde7b190a9eaf341f69c7e6636224f06951")]
 [assembly: System.Reflection.AssemblyProductAttribute("AirFrance.DataProvider")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AirFrance.DataProvider")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,11 @@
+@using AirFrance.WebUI.Models
+@model PassagerListViewModel
+
+@{
+    ViewData["Title"] = Model.PageTitle;
+}
+@*Affichage via une vue partielle*@
+@foreach (var passager in Model.Passagers)
+{
+    <partial name="Partials/_PassagersList" model="@passager"/>
+}
