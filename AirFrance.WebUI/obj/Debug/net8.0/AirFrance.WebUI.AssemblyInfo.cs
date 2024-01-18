@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AirFrance.WebUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c33dcf60a55b9989099a8421f971aa696a54c6f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e331096ebcb95aec2e1c8d9afbbc14a07773e43")]
 [assembly: System.Reflection.AssemblyProductAttribute("AirFrance.WebUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AirFrance.WebUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

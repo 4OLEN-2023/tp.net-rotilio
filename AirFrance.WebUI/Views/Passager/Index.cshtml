@@ -5,7 +5,22 @@
     ViewData["Title"] = Model.PageTitle;
 }
 @*Affichage via une vue partielle*@
-@foreach (var passager in Model.Passagers)
-{
-    <partial name="Partials/_PassagersList" model="@passager"/>
-}
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">FirstName</th>
+            <th scope="col">LastName</th>
+            <th scope="col">Birthdate</th>
+            <th scope="col">IsCheckedId</th>
+            <th scope="col">TicketPrice</th>
+            <th scope="col">Vol</th>
+        </tr>
+    </thead>
+    @foreach (var passager in Model.Passagers)
+    {
+        <partial name="Partials/_PassagersList" model="@passager" />
+    }
+</table>
+
+<a class="btn btn-primary" asp-area="" asp-controller="Passager" asp-action="Add">+ Add</a>
